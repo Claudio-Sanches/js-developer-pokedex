@@ -1,0 +1,34 @@
+* {
+    font-family: 'Roboto', "sams-serif";
+    box-sizing: border-box;
+}
+
+body{
+    
+   background-color: #f6f8fc; 
+}
+
+.Dividir{
+    width: 90vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Parte1 {
+    width: 100vw;
+    margin: 2rem ;
+    padding: 0 1.5rem 0 1.5rem;
+   
+    background-color: #fff;
+    border-radius: 1rem;   
+}
+
+.Parte2{
+    width: 100vw;
+    margin: 2rem ;
+    
+    background-color: #fff;
+    border-radius: 1rem;
+}
+

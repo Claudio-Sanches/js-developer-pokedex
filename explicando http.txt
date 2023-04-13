@@ -1,0 +1,48 @@
+
+requisição HTTP
+
+url: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+    $(IP)/$(path = caminho de identificação do recurso)
+
+Request Method: GET | POST | PUT | DELETE (métodos)
+
+tipo de solicição: GET
+
+IP: https://pokeapi.co - resolvido pelo DNS
+    https://127.0.0.1:3000
+
+Path: /api/v2/pokemon
+
+Dos 1154 pokemons iniciar (offset) do 0 e traga 2 (limit=2)
+
+ https://pokeapi.co/api/v2/pokemon?offset=0&limit=2
+ 
+ inicio ===> offset=0
+ &
+ quantos ===> limit=2
+
+Request Headers
+  Configuração
+      accept-language: 
+      pt-BR,
+      pt;q=0.9,
+      en-US;q=0.8,
+      en;q=0.7
+
+Response Headers
+
+Para enviar informações via API é utilizado o Bory
+
+Request Headers
+  content-type: application/json; charset=utf-8 (significa que o padrão a ser utilizado será JSON e é aceito acentuação)
+
+Body - exemplo de extrutura JSON
+{
+  "name": "Teste"
+}
+
+status code : 200 - ok
+
+Response Headers
+
+Response Body
